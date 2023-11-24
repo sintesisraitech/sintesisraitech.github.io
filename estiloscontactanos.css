@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(fonweb.jpg);
+    background-size: cover;
+    } /* con este apartado ponemos el fondo a nuestra página web */
+    
+    header {
+    background-color: rgba(154, 241, 227, 0.5);
+    
+    }
+    
+    .logo {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 70%;
+        width: 300px;
+        border-radius: 20px;
+        height: auto;
+       
+    } /* podemos mover el div_logo por la pantalla */
+    
+    .div_botones {
+    
+        position: absolute; /* para colocar posición al div con top,right, bottom y left */
+        top: 4%; 
+        margin-left: 6%;
+        
+    } /* para colocar posición al div con top,right, bottom y left */
+    .boton {
+        
+        justify-content: center; /* centra el texto en el interior del boton */
+        color: rgb(113, 152, 113);
+        font-size: 25px; /* Tamaño de letra del texto del botón */
+        margin-right: 30px; /* Separación entre los botones */
+        font-family: Arial /* tipo de letra del boton */ 
+    } /* trabajamos todos los atributos de los botones de enlace con otras paginas */
+    
+    img {
+    
+    width: 350px; /* ancho de la imgen */ 
+    height: 160px;/* alto de imagen */
+    border-radius: 20px;    margin: 10px; /* margen al rededor */
+    padding: 5px;
+    box-shadow: 5px 5px 10px #666d6f;
+    
+    }
+
+    .imgcam {
+
+        position: relative;
+        top: 200px; /* colocación en altura */
+        left: 3%; /* Vertical */
+        
+    }
+    .titulo {
+        position: relative;
+        margin-top: -150px;
+        color: rgb(220, 252, 244);
+        font-size: 50px;
+        text-decoration: underline; /* subrayado */
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    .formulario {
+        position: relative;
+        margin-left: 25%; /* Colocación */
+        font-size: 30px;
+        color: rgb(220, 252, 244);
+        font-family: Arial, Helvetica, sans-serif;
+     
+     } /*colocación del formulario */
+
+     label {
+        width: 500px;
+        display: inline-block;
+     }
+
+input, textarea {
+        padding: 20px;
+        border: 5px solid rgb(113, 152, 113);
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 400px;  /* tamaño cuadros rellenar */
+      }
+  
+
+    .formularioenvi {
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(113, 152, 113);
+    padding: 20px;
+    height: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: 5px solid rgb(227, 10, 10);
+    text-decoration: none;
+    font-size: 0.7em;
+    font-family: Arial; 
+}
+
+footer {
+
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgba(red, green, blue, alpha);
+    color: rgb(244, 237, 237);
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    width: 100%;
+ margin-top: 100px;
+  }

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" type="text/css" href="estiloscontactanos.css">
+<title>RAIcontactanos</title>
+    
+
+</head>
+
+<body>
+<div class="pagina_total"> 
+<header>
+        <div class="div_logo">
+            <img class="logo" src="Logorai.png" alt="logo RAITECNOLOGY">
+        </div>
+    
+        <div class="div_botones">
+            <a class="boton" href="index.html">Inicio</a>
+            <a class="boton" href="">Productos</a>
+            <a class="boton" href="">Contáctanos</a>
+        </div>
+    </header>
+    <div>
+        <img class="imgcam" src="imgcam.png">
+    </div>
+
+    <div>
+        <!--class se utiliza para dar nombre de clase a la etiquete para posteriormente usarla en css-->
+         <h1 class="titulo">Formulario de contacto</h1>
+    </div>
+         
+           <!--h1 es para poner un título al contenedor. En este caso sería Formulario de contcto-->  
+    <div class="formulario">   
+            <form>
+                <!--form es para definir la etiqureta de atributo formulario-->  
+                <table>
+                    <!--queremos que sea con un formato de tabla-->  
+        
+                    <tr>
+                        <td>
+                            <label class="formulario" for="nombre">Nombre:</label> 
+                        </td>
+                        <td>
+                            <input  type="text" id="nombre" name="nombre" placeholder="Nombre">
+                        </td>
+                    </tr>
+                    <tr>
+                        
+                        <td>
+                            <label class="formulario" for="apellido">Apellidos:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="apellido" name="apellido"placeholder="Apellido">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label class="formulario" for="telefono">Teléfono:</label>
+                        </td>
+                        <td>
+                            <input type="tel" id="telefono" name="telefono" placeholder="Nº de teléfono">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label class="formulario" for="correo">Correo Electrónico:</label>
+                        </td>
+                        <td>
+                            <input type="email" id="Correo Electrónico" name="correo" placeholder="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label class="formulario" for="mensaje">Mensaje:</label>
+                        </td>
+                        <td>
+                            <textarea id="mensaje" name="mensaje"placeholder="Aquí su mensaje..."></textarea></textarea><br>
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                       
+                        </td>
+                        <td>
+                            <button class="formularioenvi" type="submit">Enviar</button>
+                        </td>
+                        
+                    </tr>
+                </table>
+                
+              </form>
+        
+        
+        </div>
+        <footer> <p> ÓSCAR CUADRADO ABOITIZ_____     Síntesis S1-23/24</p></footer>
+        
+
+</body>
